@@ -1,7 +1,5 @@
-# NEUOJ-bug-report
-An empty repository used for NEUOJ bugs
-
-# NEUOJ Ver 1.0 Supported Features
+NEUOJ
+====
 
 ### Function Enabled for v1.0
 * [x] Problem managment
@@ -9,13 +7,18 @@ An empty repository used for NEUOJ bugs
  * [x] Edit Problem
  * [x] Delete Problem
  * [x] Edit data
+ * [ ] Visibility Lock Manual Enable
+ * [ ] Load in Problem from XML
 * [ ] Hold Contest
  * [ ] Three kind of access to contest: Private Register Public
  * [ ] Enable user register himself into the register Contest
  * [x] Board display
  * [ ] Import student info from xls and xlsx etc.
+ * [ ] Rejudge a Problem by ContestID or Submission ID
+ * [ ] Balloon System
 * [ ] Root Admin Panel
  * [ ] + User Managment
+ * [ ] Dashboard Show System Status
 * [ ] Auth module
  * [x] Register
  * [x] Login
@@ -29,7 +32,18 @@ An empty repository used for NEUOJ bugs
 * [x] Judge (Current Plan: use domjudge judgedaemon to judge)
  * [x] Read domjudge judge/ code and make the Request Graph
  * [x] Implement the RESTful API with laravel
-* [ ] RoleCheck (pending)
+ * [ ] Compile Error Message Return to user
+* [ ] RoleCheck (Ver 2.0)
+* [ ] Content Managment System (CMS) Use one Plugin
+
+### top level route
+* /profile User profile page
+* /dashboard User managment panel
+* /problem Show Problem(s)
+* /status Show status(es)
+* /auth Authenticate interface (Register login and reset password)
+* /contest Show or get in contest
+* /discuss Route to subfunction of bbs
 
 ### Code Styling
 
