@@ -22,8 +22,8 @@ NEUOJ
 * [ ] Auth module
  * [x] Register
  * [x] Login
- * [ ] Reset Password
- * [ ] (Future) SSO and Third party login
+ * [x] Reset Password (Need SMTP Server)
+ * [x] "Future" SSO and Third party login
 * [ ] Problem Browsing
  * [x] Search problem by id
  * [x] View Page-splited problem list
