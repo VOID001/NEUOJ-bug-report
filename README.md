@@ -1,5 +1,6 @@
 NEUOJ
 ====
+GPG Signing Key Enabled, Only Commit with verified GPG Key will be allowed in this repo
 __Ver 1.0 Released__ 2.0 Working In Progress
 
 ### Function Enabled for v2.0
